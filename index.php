@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 use MyProject\Person;
 use MyProject\OutOfRangeException;
 
-$person = new Person("Роман");
+$person = new Person("*Имя*");
 
 $agesToTest = [-1, 20, 151, 100];
 
